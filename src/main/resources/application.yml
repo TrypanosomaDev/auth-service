@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://${POSTGRE_IP}:${POSTGRE_PORT}/internal_control_app
+    url: jdbc:postgresql://${POSTGRE_IP}:${POSTGRE_PORT}/${DB_NAME}
     username: ${POSTGRE_USER}
     password: ${POSTGRE_PASSWORD}
 
